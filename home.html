@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama - Web Ekonomi</title>
+    <style>
+        /* CSS yang sudah ada sebelumnya... */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f2f3f5;
+            color: #2e3338;
+            margin: 0;
+            padding: 20px 20px 0 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header .brand {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .header .nav-links {
+            color: #5c677d;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: right;
+        }
+        
+        .main-content {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px 40px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .breadcrumb {
+            font-size: 14px;
+            color: #5c677d;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            color: #5865f2;
+            margin-bottom: 25px;
+        }
+        
+        h2, h3 {
+            font-size: 24px;
+            color: #060607;
+            border-bottom: 2px solid #e3e5e8;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 20px;
+            border-bottom: none;
+            color: #3f4654;
+        }
+
+        p {
+            line-height: 1.7;
+            color: #3f4654;
+        }
+        
+        em {
+            color: #5865f2;
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        strong {
+            color: #060607;
+        }
+        
+        hr {
+            border: 0;
+            border-top: 1px solid #e3e5e8;
+            margin: 40px 0;
+        }
+
+        .material-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .material-card {
+            background-color: #f2f3f5;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: left;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid #e3e5e8;
+        }
+
+        .material-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .material-card h4 {
+            font-size: 18px;
+            color: #060607;
+            margin: 0 0 5px 0;
+        }
+        .material-card p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #5c677d;
+            margin: 0;
+        }
+        
+        /* --- CSS FOOTER YANG DIPERBARUI --- */
+        .site-footer {
+            padding: 25px 20px;
+            margin-top: 40px;
+            background-color: #e3e5e8;
+            color: #5c677d;
+        }
+        .footer-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-socials a {
+            color: #5c677d;
+            text-decoration: none;
+            margin-right: 15px; /* Jarak antar ikon */
+        }
+        .footer-socials a:last-child {
+            margin-right: 0; /* Hapus jarak untuk ikon terakhir */
+        }
+        .footer-socials a:hover {
+            color: #5865f2; /* Warna ikon saat disentuh mouse */
+        }
+        .footer-socials svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor; /* Ini membuat warna ikon mengikuti warna link (<a>) */
+            vertical-align: middle;
+        }
+        .footer-copyright, .footer-credits {
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="brand">
+                Web Ekonomi 📚
+            </div>
+            <div class="nav-links">
+                <b>R56</b> | Kelompok 3 | 2025
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="breadcrumb">
+                Halaman Utama
+            </div>
+            <h1>Selamat Datang di Dunia Ekonomi 💸</h1>
+            <article>
+                <h2>Kenapa Kita Perlu Belajar Ekonomi? 🤔</h2>
+                <p>
+                    Hai! Pernahkah kamu berpikir kenapa kamu tidak bisa memiliki semua yang kamu inginkan? Kenapa kamu harus memilih antara membeli <em>game</em> baru atau menabung untuk masa depan? Selamat, kamu baru saja memikirkan konsep inti dari ilmu ekonomi!
+                </p>
+                <p>
+                    Ekonomi pada dasarnya adalah ilmu tentang <strong>pilihan</strong>. Ini semua berawal dari satu masalah utama yang kita semua hadapi setiap hari.
+                </p>
+                <h3>Konsep Kunci: Kelangkaan (Scarcity)</h3>
+                <p>
+                    <strong>Kelangkaan</strong> berarti sumber daya yang kita miliki (seperti uang, waktu, dan tenaga) itu terbatas, sementara keinginan kita tidak ada batasnya. Kamu tidak punya cukup uang untuk membeli semua barang di mal, dan sebuah negara pun tidak punya cukup sumber daya untuk membangun semua yang diinginkan warganya sekaligus.
+                </p>
+                <p>
+                    Karena adanya kelangkaan inilah, kita semua, baik individu maupun negara, dipaksa untuk membuat <strong>pilihan</strong>.
+                </p>
+                <h3>Biaya Peluang (Opportunity Cost): Hal yang Kamu Korbankan</h3>
+                <p>
+                    Setiap kali kamu membuat sebuah pilihan, kamu pasti mengorbankan pilihan lainnya. Hal terbaik yang kamu korbankan inilah yang disebut <strong>biaya peluang</strong>.
+                </p>
+                <p>
+                    <strong>Contoh sederhana:</strong> Kamu punya uang Rp 50.000. Kamu memilih untuk nonton film di bioskop. Maka, biaya peluangmu adalah hal terbaik lain yang bisa kamu lakukan dengan uang itu, misalnya membeli sebuah buku atau makan enak. Buku atau makanan itulah yang kamu "korbankan" untuk bisa menonton film.
+                </p>
+                <p>
+                    Ekonomi membantu kita memahami cara membuat pilihan terbaik dengan sumber daya yang terbatas untuk mendapatkan hasil yang paling maksimal.
+                </p>
+            </article>
+            <hr>
+            <h2>Pilih Materi Untuk Dipelajari</h2>
+            <div class="material-grid">
+                <a href="Definisi_Ekonomi.html" class="material-card">
+                    <h4>Apa itu Ekonomi?</h4>
+                    <p>Pengertian dasar, kelangkaan, dan biaya peluang.</p>
+                </a>
+                <a href="Konsep_Dasar_Ekonomi.html" class="material-card">
+                    <h4>Konsep Dasar Ekonomi</h4>
+                    <p>Prinsip-prinsip fundamental yang membentuk ilmu ekonomi.</p>
+                </a>
+                <a href="Jenis_Ekonomi.html" class="material-card">
+                    <h4>Jenis Ekonomi</h4>
+                    <p>Kenali berbagai jenis ekonomi dan karakteristiknya.</p>
+                </a>
+                <a href="Sistem_Ekonomi.html" class="material-card">
+                    <h4>Sistem Ekonomi</h4>
+                    <p>Bagaimana negara-negara mengelola sumber dayanya.</p>
+                </a>
+                <a href="Pelaku_Ekonomi.html" class="material-card">
+                    <h4>Pelaku Ekonomi</h4>
+                    <p>Siapa saja yang berperan dalam aktivitas ekonomi.</p>
+                </a>
+                <a href="Konsep_Pendukung_Ekonomi.html" class="material-card">
+                    <h4>Konsep Pendukung</h4>
+                    <p>Materi tambahan untuk memperkaya pemahaman Anda.</p>
+                </a>
+            </div>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-socials">
+                <a href="#" title="X / Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9.294 6.928L14.357 1h-1.2L8.762 6.147 5.25 1H1.2l5.31 7.643L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.77-4.23-6.07h1.82l3.445 4.94.538.77 4.495 6.44h-1.82z"/></svg>
+                </a>
+                <a href="#" title="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 00-1.417.923A3.9 3.9 0 00.42 2.76C.222 3.268.087 3.85.048 4.703.01 5.556 0 5.829 0 8s.01 2.444.048 3.297c.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.556 15.99 5.829 16 8 16s2.444-.01 3.297-.048c.852-.04 1.433-.174 1.942-.372a3.9 3.9 0 001.417-.923c.445-.445.718-.891.923-1.417.198-.51.333-1.09.372-1.942C15.99 10.444 16 10.171 16 8s-.01-2.444-.048-3.297c-.04-.852-.174-1.433-.372-1.942a3.9 3.9 0 00-.923-1.417A3.9 3.9 0 0013.24.42c-.51-.198-1.09-.333-1.942-.372C10.444.01 10.171 0 8 0zm0 1.44c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.282.24.705.275 1.486.039.843.047 1.096.047 3.232s-.008 2.389-.047 3.232c-.035.78-.166 1.204-.275 1.486a2.4 2.4 0 01-.599.92c-.28.28-.546.453-.92.598-.282.11-.705.24-1.486.275-.843.039-1.096.047-3.232.047s-2.389-.008-3.232-.047c-.78-.035-1.204-.166-1.486-.275a2.4 2.4 0 01-.92-.598 2.4 2.4 0 01-.598-.92c-.11-.282-.24-.705-.275-1.486-.039-.843-.047-1.096-.047-3.232s.008-2.389.047-3.232c.035-.78.166-1.204.275-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.486-.275.843-.039 1.096-.047 3.232-.047zM8 4.077a3.923 3.923 0 100 7.846 3.923 3.923 0 000-7.846zM8 10.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm3.545-6.33a.96.96 0 100-1.92.96.96 0 000 1.92z"/></svg>
+                </a>
+                <a href="#" title="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+                </a>
+                <a href="#" title="YouTube">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.051 1.999a.7.7 0 00-.705.705v10.59a.7.7 0 00.705.705h.002a.7.7 0 00.705-.705V2.704a.7.7 0 00-.705-.705z" fill-rule="evenodd" clip-rule="evenodd"/><path d="M1.946 8.05a6.1 6.1 0 006.105 6.104 6.1 6.1 0 006.105-6.104 6.1 6.1 0 00-6.105-6.104 6.1 6.1 0 00-6.105 6.104zM8.05 3.054a5 5 0 100 10 5 5 0 000-10z" fill-rule="evenodd" clip-rule="evenodd"/><path d="M6.255 10.88V5.22l4.636 2.83z"/></svg>
+                </a>
+                <a href="#" title="TikTok">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2.02c-.974 0-1.94-.39-2.643-.91a4.2 4.2 0 01-1.103-1.638C11.16 3.23 11 2.5 11 1.98V9.5A4.5 4.5 0 016.5 14a4.5 4.5 0 110-9V7a2.5 2.5 0 002.5 2.5z"/></svg>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                Web Ekonomi &copy; 2025
+            </div>
+            <div class="footer-credits">
+                Kelompok 3 | R56
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

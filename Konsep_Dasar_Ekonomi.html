@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konsep Dasar Ekonomi - Web Ekonomi</title>
+    <style>
+        /* CSS inspo: Discord Style */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f2f3f5;
+            color: #2e3338;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* --- Header --- */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header .brand {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .header .nav-links {
+            color: #5c677d;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: right;
+        }
+        
+        /* --- Main Content --- */
+        .main-content {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px 40px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .breadcrumb {
+            font-size: 14px;
+            color: #5c677d;
+            margin-bottom: 40px;
+        }
+        .breadcrumb a {
+            color: #0068e0;
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            color: #5865f2;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        h2, h3 {
+            font-size: 24px;
+            color: #060607;
+            border-bottom: 2px solid #e3e5e8;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 20px;
+            border-bottom: none;
+            color: #3f4654;
+        }
+
+        blockquote {
+            background-color: #f2f3f5;
+            border-left: 5px solid #5865f2;
+            padding: 15px 20px;
+            margin: 20px 0;
+            line-height: 1.7;
+            color: #3f4654;
+        }
+        blockquote b, blockquote strong {
+            color: #060607;
+        }
+        blockquote p {
+            margin: 10px 0;
+        }
+
+        /* --- Tabel --- */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 30px 0;
+            background-color: #fff;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+        th, td {
+            border: 1px solid #e3e5e8;
+            text-align: left;
+            padding: 12px;
+        }
+        th {
+            background-color: #5865f2;
+            color: white;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9fa;
+        }
+
+
+        /* --- Footer Link --- */
+        .footer-nav {
+            text-align: center;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between; /* Membuat tombol terpisah */
+            gap: 15px;
+        }
+        .footer-nav a {
+            background-color: #248046;
+            color: #ffffff;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            display: inline-block;
+            transition: background-color 0.2s ease;
+            flex-grow: 1; /* Membuat tombol memenuhi ruang */
+        }
+        .footer-nav a.back-button {
+            background-color: #747f8d; /* Warna abu-abu */
+        }
+        .footer-nav a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="brand">
+                Web Ekonomi 📚
+            </div>
+           <div class="nav-links">
+                <b>R56</b> | Kelompok 3 | 2025
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="breadcrumb">
+                <a href="home.html">Halaman Utama</a> &gt; Konsep Dasar Ekonomi
+            </div>
+
+            <h1>Konsep Dasar</h1>
+
+            <article>
+                <h2>Supply And Demand (Penawaran dan Permintaan)</h2>
+                <blockquote>
+                    <p><b>Supply (penawaran)</b> dan <b>Demand (permintaan)</b> adalah jumlah barang atau jasa yang ingin dan mampu dijual/dibeli oleh produsen/konsumen pada berbagai tingkat harga dalam suatu periode waktu tertentu.</p>
+                </blockquote>
+                
+                <h3>Hukum Permintaan dan Penawaran</h3>
+                <blockquote>
+                    <p><b>1. Hukum Permintaan (Law of Demand)</b><br>
+                    <i>“Jika harga suatu barang naik, maka jumlah barang yang diminta akan turun, dan sebaliknya, jika harga turun, maka jumlah yang diminta akan naik, ceteris paribus (faktor lain dianggap tetap).”</i> Hubungan antara harga (P) dan jumlah yang diminta ($Q_d$) bersifat berbanding terbalik. Secara matematis: $Q_d = f(P)$ dengan hubungan negatif.</p>
+                    
+                    <p><b>2. Hukum Penawaran (Law of Supply)</b><br>
+                    <i>“Jika harga suatu barang naik, maka jumlah barang yang ditawarkan juga akan naik, dan sebaliknya, jika harga turun maka jumlah yang ditawarkan akan turun, ceteris paribus.”</i> Hubungan antara harga (P) dan jumlah yang ditawarkan ($Q_s$) bersifat berbanding lurus. Secara matematis: $Q_s = f(P)$ dengan hubungan positif.</p>
+                </blockquote>
+
+                <h3>Keseimbangan Pasar (Market Equilibrium)</h3>
+                <blockquote>
+                    <p>Keseimbangan pasar terjadi ketika jumlah barang yang diminta sama dengan jumlah barang yang ditawarkan. Pada titik ini tidak ada kelebihan permintaan (shortage) atau kelebihan penawaran (surplus). Harga yang terbentuk disebut harga keseimbangan (equilibrium price).</p>
+                </blockquote>
+
+                <h2>Produksi, Konsumsi, dan Distribusi</h2>
+                <blockquote>
+                    <p><b>Produksi:</b> Kegiatan menghasilkan barang atau jasa atau menambah nilai guna suatu barang agar lebih bermanfaat.</p>
+                    <p><b>Konsumsi:</b> Kegiatan menggunakan atau memanfaatkan barang dan jasa untuk memenuhi kebutuhan hidup.</p>
+                    <p><b>Distribusi:</b> Kegiatan menyalurkan barang atau jasa dari produsen ke konsumen.</p>
+                </blockquote>
+
+                <h3>Hubungan Ketiganya</h3>
+                <blockquote>
+                    <p>Ketiganya saling berkaitan dan membentuk siklus kegiatan ekonomi: Produksi menghasilkan barang, Distribusi menyalurkannya, dan Konsumsi menggunakannya. Hasil dari konsumsi (permintaan) akan memengaruhi produksi di masa depan.</p>
+                </blockquote>
+
+                <h2>Contoh Sederhana Siklus Ekonomi</h2>
+                <table>
+                    <tr>
+                        <th>Tahapan</th>
+                        <th>Pelaku</th>
+                        <th>Kegiatan</th>
+                        <th>Contoh</th>
+                    </tr>
+                    <tr>
+                        <td>Produksi</td>
+                        <td>Pabrik roti</td>
+                        <td>Membuat roti dari tepung dan gula</td>
+                        <td>Produksi barang</td>
+                    </tr>
+                    <tr>
+                        <td>Distribusi</td>
+                        <td>Pedagang atau toko</td>
+                        <td>Menjual dan menyalurkan roti ke pasar</td>
+                        <td>Distribusi barang</td>
+                    </tr>
+                    <tr>
+                        <td>Konsumsi</td>
+                        <td>Pembeli</td>
+                        <td>Membeli dan memakan roti</td>
+                        <td>Konsumsi barang</td>
+                    </tr>
+                </table>
+            </article>
+
+            <div class="footer-nav">
+                <a href="Definisi_Ekonomi.html" class="back-button">&larr; Kembali ke Definisi Ekonomi</a>
+                <a href="Jenis_Ekonomi.html">Lanjut ke Jenis Ekonomi &rarr;</a>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
